@@ -24,7 +24,7 @@ public class ProfileTest {
 		driver.manage().window().maximize();
 		LaunchPage launchpage = PageFactory.initElements(driver, LaunchPage.class);
 		LoginPage loginPage = launchpage.gotoLoginPage();
-		Object page = loginPage.doLogin("xhot_2handle@msn.com", "");
+		Object page = loginPage.doLogin("", "");
 		if (page instanceof LoginPage) {
 			Assert.fail("Login Failed");
 		} else if (page instanceof LandingPage) {
