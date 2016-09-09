@@ -5,9 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.umair.facebook.pom.base.BasePage;
 import com.umair.facebook.pom.pages.session.LandingPage;
 
-public class LoginPage {
+public class LoginPage extends BasePage{
 
 	WebDriver driver;
 	@FindBy(xpath = "//input[@id='email']")

@@ -3,10 +3,12 @@ package com.umair.facebook.pom.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class LaunchPage {
+import com.umair.facebook.pom.base.BasePage;
+
+public class LaunchPage extends BasePage{
 
 	WebDriver driver;
-
+ 
 	public LaunchPage(WebDriver driver) {
 
 		System.out.println("In LaunchPage");

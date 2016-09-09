@@ -2,7 +2,9 @@ package com.umair.facebook.pom.pages.session;
 
 import org.openqa.selenium.WebDriver;
 
-public class ProfilePage {
+import com.umair.facebook.pom.base.BasePage;
+
+public class ProfilePage extends BasePage{
 
 	WebDriver driver;
 	

@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage {
+import com.umair.facebook.pom.base.BasePage;
+
+public class LandingPage extends BasePage{
 
 	WebDriver driver;
 
