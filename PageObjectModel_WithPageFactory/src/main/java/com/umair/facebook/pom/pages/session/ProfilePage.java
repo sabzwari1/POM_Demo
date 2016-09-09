@@ -6,7 +6,7 @@ import com.umair.facebook.pom.base.BasePage;
 
 public class ProfilePage extends BasePage{
 
-	WebDriver driver;
+	
 	
 	public ProfilePage(WebDriver driver) {
 		this.driver = driver;

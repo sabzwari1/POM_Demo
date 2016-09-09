@@ -9,7 +9,7 @@ import com.umair.facebook.pom.base.BasePage;
 
 public class LandingPage extends BasePage{
 
-	WebDriver driver;
+	
 
 	@FindBy(xpath="//div[a[@title='Profile']]")
 	public WebElement profileLink;

@@ -10,7 +10,7 @@ import com.umair.facebook.pom.pages.session.LandingPage;
 
 public class LoginPage extends BasePage{
 
-	WebDriver driver;
+	
 	@FindBy(xpath = "//input[@id='email']")
 	public WebElement email;
 

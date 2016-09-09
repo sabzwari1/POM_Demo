@@ -1,7 +1,11 @@
 package com.umair.facebook.pom.base;
 
+import org.openqa.selenium.WebDriver;
+
 public class BasePage {
 
+	public WebDriver driver;
+	
 	public String veifyTitle(String expTitle) {
 		return "";
 	}

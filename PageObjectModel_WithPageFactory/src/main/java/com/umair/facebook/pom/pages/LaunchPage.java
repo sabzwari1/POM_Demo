@@ -7,7 +7,7 @@ import com.umair.facebook.pom.base.BasePage;
 
 public class LaunchPage extends BasePage{
 
-	WebDriver driver;
+	
  
 	public LaunchPage(WebDriver driver) {
 
