@@ -5,17 +5,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.relevantcodes.extentreports.ExtentTest;
 import com.umair.facebook.pom.base.BasePage;
+import com.umair.facebook.pom.util.FBConstants;
 
 public class LandingPage extends BasePage{
 
 	
 
-	@FindBy(xpath="//div[a[@title='Profile']]")
+	@FindBy(xpath=FBConstants.lnk_ProfilePage)
 	public WebElement profileLink;
 	
-	public LandingPage(WebDriver driver) {
-		this.driver = driver;
+	public LandingPage(WebDriver driver, ExtentTest test) {
+		super(driver,test );
+		this.test=test;
 	}
 
 	public ProfilePage gotoProfilePage() {

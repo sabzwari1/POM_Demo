@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28206" started-at="2016-08-31T14:32:38Z" finished-at="2016-08-31T14:33:07Z">
+  <suite name="Default suite" duration-ms="30742" started-at="2016-10-27T16:10:07Z" finished-at="2016-10-27T16:10:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28206" started-at="2016-08-31T14:32:38Z" finished-at="2016-08-31T14:33:07Z">
-      <class name="com.umair.facebook.pom.testcases.ProfileTest">
-        <test-method status="PASS" signature="testProfile()[pri:0, instance:com.umair.facebook.pom.testcases.ProfileTest@7dc36524]" name="testProfile" duration-ms="28188" started-at="2016-08-31T09:32:38Z" finished-at="2016-08-31T09:33:07Z">
+    <test name="Default test" duration-ms="30742" started-at="2016-10-27T16:10:07Z" finished-at="2016-10-27T16:10:38Z">
+      <class name="com.umair.facebook.pom.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.umair.facebook.pom.testcases.LoginTest@9a7504c]" name="loginTest" duration-ms="30399" started-at="2016-10-27T11:10:07Z" finished-at="2016-10-27T11:10:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testProfile -->
-      </class> <!-- com.umair.facebook.pom.testcases.ProfileTest -->
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="end_Method()[pri:0, instance:com.umair.facebook.pom.testcases.LoginTest@9a7504c]" name="end_Method" is-config="true" duration-ms="321" started-at="2016-10-27T11:10:38Z" finished-at="2016-10-27T11:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end_Method -->
+      </class> <!-- com.umair.facebook.pom.testcases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
